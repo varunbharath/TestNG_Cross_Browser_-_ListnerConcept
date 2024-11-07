@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-27T10:24:54 IST" name="Suite" finished-at="2024-08-27T10:24:54 IST" duration-ms="150">
+    <groups>
+      <group name="smoke">
+        <method signature="suiteclass.AmazonPrimelogin_password()[pri:0, instance:demo_NG.suiteclass@4c583ecf]" name="AmazonPrimelogin_password" class="demo_NG.suiteclass"/>
+        <method signature="suiteclass.AmazonPrimelogin_username()[pri:0, instance:demo_NG.suiteclass@4c583ecf]" name="AmazonPrimelogin_username" class="demo_NG.suiteclass"/>
+      </group> <!-- smoke -->
+      <group name="retest">
+        <method signature="suiteclass.AmazonPrimelogin_entercapcha()[pri:0, instance:demo_NG.suiteclass@4c583ecf]" name="AmazonPrimelogin_entercapcha" class="demo_NG.suiteclass"/>
+        <method signature="suiteclass.AmazonPrimeloginbutton()[pri:0, instance:demo_NG.suiteclass@4c583ecf]" name="AmazonPrimeloginbutton" class="demo_NG.suiteclass"/>
+      </group> <!-- retest -->
+    </groups>
+    <test started-at="2024-08-27T10:24:54 IST" name="Test" finished-at="2024-08-27T10:24:54 IST" duration-ms="150">
+      <class name="demo_NG.suiteclass">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:demo_NG.suiteclass@4c583ecf]" started-at="2024-08-27T10:24:54 IST" name="beforeSuite" finished-at="2024-08-27T10:24:54 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="AmazonPrimelogin_entercapcha()[pri:0, instance:demo_NG.suiteclass@4c583ecf]" started-at="2024-08-27T10:24:54 IST" name="AmazonPrimelogin_entercapcha" finished-at="2024-08-27T10:24:54 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonPrimelogin_entercapcha -->
+        <test-method signature="AmazonPrimelogin_password()[pri:0, instance:demo_NG.suiteclass@4c583ecf]" started-at="2024-08-27T10:24:54 IST" name="AmazonPrimelogin_password" finished-at="2024-08-27T10:24:54 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonPrimelogin_password -->
+        <test-method signature="AmazonPrimelogin_username()[pri:0, instance:demo_NG.suiteclass@4c583ecf]" started-at="2024-08-27T10:24:54 IST" name="AmazonPrimelogin_username" finished-at="2024-08-27T10:24:54 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonPrimelogin_username -->
+        <test-method signature="AmazonPrimeloginbutton()[pri:0, instance:demo_NG.suiteclass@4c583ecf]" started-at="2024-08-27T10:24:54 IST" name="AmazonPrimeloginbutton" finished-at="2024-08-27T10:24:54 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonPrimeloginbutton -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:demo_NG.suiteclass@4c583ecf]" started-at="2024-08-27T10:24:54 IST" name="afterSuite" finished-at="2024-08-27T10:24:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- demo_NG.suiteclass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
